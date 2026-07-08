@@ -1,0 +1,15 @@
+{
+  "name": "cocodot-api-examples-node",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Call Claude / GPT / Gemini / DeepSeek via the OpenAI SDK from China (cocodot)",
+  "scripts": {
+    "chat": "node chat.mjs",
+    "stream": "node stream.mjs",
+    "multi": "node multi-model.mjs"
+  },
+  "dependencies": {
+    "openai": "^4.0.0"
+  }
+}
